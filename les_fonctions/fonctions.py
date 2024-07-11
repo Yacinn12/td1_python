@@ -42,7 +42,7 @@ panier = []
 
 while True:
     afficher_menu()
-    choix = input("Quel est votre choix? ")
+    choix = input("Quel est votre choix : ")
 
     if choix == '1':
         ajouter_article(panier)
